@@ -1,0 +1,5 @@
+- name: flowlogs-tap
+  module: aws-vpcfl
+  source: flowlogs
+  aws:
+    shardCount: 1
