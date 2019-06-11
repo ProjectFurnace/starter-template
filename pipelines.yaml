@@ -1,3 +1,4 @@
 - name: enrichment
   modules:
-    - name: passthrough
+    - name: noop
+      module: passthrough

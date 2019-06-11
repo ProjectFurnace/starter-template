@@ -1,5 +1,4 @@
-- tap: flowlogs-tap
-  pipeline: enrichment
-
-- pipeline: enrichment
-  sink: es-sink
+- from:
+    tap: tap1
+  to:
+    pipeline: enrichment

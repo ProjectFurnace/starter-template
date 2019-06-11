@@ -1,8 +1,0 @@
-- name: es-sink
-  type: AwsFirehose
-  resource: es
-  aws:
-    destination: elasticsearch
-    elasticsearchConfiguration:
-        indexName: test
-        typeName: test

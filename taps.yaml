@@ -1,5 +1,3 @@
-- name: flowlogs-tap
-  module: aws-vpcfl
-  source: flowlogs
-  aws:
-    shardCount: 1
+- name: tap1
+  module: passthrough
+  source: source1

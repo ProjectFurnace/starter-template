@@ -1,10 +1,7 @@
-name: postdemo
-platform:
-    aws:
-        defaultBatchSize: 10
+name: simple
 state:
-    repo: 
+  repo: test
 environments:
-    - dev
-    - staging
-    - prod
+  - dev
+  - staging
+  - production
