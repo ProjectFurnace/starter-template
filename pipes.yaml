@@ -1,4 +1,4 @@
-- from:
-    tap: tap1
-  to:
-    pipeline: enrichment
+# - from:
+#     tap: tap1
+#   to:
+#     pipeline: enrichment
