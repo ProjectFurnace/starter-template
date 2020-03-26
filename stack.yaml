@@ -5,3 +5,8 @@ environments:
   - dev
   - staging
   - production
+
+repositories:
+  - name: core
+    type: git
+    url: https://github.com/ProjectFurnace/core-functions
